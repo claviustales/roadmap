@@ -4,7 +4,7 @@ require_relative 'roadmap'
 
 puts ''
 puts Roadmap.new(
-  starting_at: '2020-03-31',
+  starting_at: '2021-03-31',
   weekly_speed: 8,
   demands: {
     'Conferência de Totalizadores' =>	10,
@@ -17,10 +17,16 @@ puts Roadmap.new(
     '[A] Diversos Comple. de Rescisão' =>	20,
     '[A] Vinculos Concomitantes' =>	20,
     '[A] Cál. IRRF em folha de adiant.' =>	20,
-    '[A] Processos Judiciais' =>	30,
-    '[A] Contabilização do Pró-Labore' =>	10,
-    'Controle de Empregados Horistas' =>	30,
-    'Termo do Salário Família' =>	4
+    'Controle de Horistas' => 30,
+    'Estagiário Remunerado' => 10,
+    'Contabilização de Pró-Labore' => 4,
+    'Contabilização de Rescisão' => 10,
+    'Contabilização de Autônomo (RPA)' => 4,
+    'Contabilização de Adiantamento de folha' => 6,
+    'Contabilização de Parcela final de 13º salário' => 10,
+    'Contabilização de Adiantamento de 13º salário' => 6,
+    'Termo de resp. e ficha de SF' => 4,
+    'Processos Judiciais' => 30
   }
 )
 puts ''
