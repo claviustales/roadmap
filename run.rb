@@ -4,11 +4,10 @@ require_relative 'roadmap'
 
 puts ''
 puts Roadmap.new(
-  starting_at: '2021-02-24',
+  starting_at: '2021-04-28', # wed
   weekly_speed: 8,
   demands: {
-    'Rais 2021' => 0,
-    'Conversão via eSocial Downloads' => 40,
+    'Conversão via eSocial Downloads' => 10,
     'Conferência de Totalizadores' =>	10,
     'SST S1.0' =>	40,
     'Controle de Empregados horistas' => 30,
