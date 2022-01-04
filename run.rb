@@ -4,29 +4,33 @@ require_relative 'roadmap'
 
 puts ''
 puts Roadmap.new(
-  starting_at: '2021-06-02', # wed
-  weekly_speed: 5,
+  starting_at: '2022-01-05', # wed
+  weekly_speed: 4.5,
   demands: {
-    'Conferência de Totalizadores' =>	10,
-    'SST S1.0' =>	40,
-    'Controle de Empregados horistas' => 30,
-    'Estagiário remunerado' => 10,
-    'Controle de férias a vencer' =>	6,
-    'Leiaute S1.0 eSocial' =>	60,
-    'Complem. de 13' =>	20,
-    'Outros Vinculos para todas as categorias' =>	20,
-    'Diversos Comple. de Rescisão' =>	20,
-    'Vinculos Concomitantes' =>	20,
-    'Cál. IRRF em folha de adiantamento.' =>	20,
-    'Leiaute S2.0 eSocial' =>	60,
-    'Contabil. do Pró-Labore (*)' => 4,
-    'Contabil. de Rescisão (*)' => 10,
-    'Contabil. de Autônomos (RPA) (*)' => 4,
-    'Contabil. de Adiant. de folha (*)' => 6,
-    'Contabil. de Parcela Inicial 13 (*)' => 6,
-    'Contabil. de Parcela Final 13 (*)' => 10,
-    'Termo de resp. e ficha do salário-família' => 4,
-    'Processos Judiciais' => 30
+    'Melhorias no Conversor [ANDAMENTO]' => 20,
+    'DIRF 2022' => 2,
+    'Períodos aquisitivos' => 10,
+    'Leiaute S1.0 eSocial [ANDAMENTO]' => 20,
+    'RAIS 2022' => 2,
+    'Outros Vínculos (para todas as categorias)' => 10,
+    'Conferência de Totais: INSS' => 10,
+    'Conferência de Totais: FGTS' => 10,
+    'Simulação de Rescisão' => 10,
+    'Controle de férias a vencer' => 5,
+    'Adiantamento de Folha: Calcular IR' => 10,
+    'Controle de Empregados horistas' => 10,
+    'Vínculos Concomitantes' => 20,
+    'Estágio remunerado' => 10,
+    'Integração Contábil: Empregador (Pró-labore)' => 5,
+    'Integração Contábil: Rescisão' => 10,
+    'Integração Contábil: Autônomo (RPA)' => 5,
+    'Integração Contábil: Complementos' => 10,
+    'Leiaute S2.0 eSocial' => 20,
+    'Integração Contábil: Adiantamento de Folha' => 5,
+    'Integração Contábil: 13º Salário - Adiantamento' => 5,
+    'Integração Contábil: 13º Salário - Parcela Final' => 5,
+    'Conferência de Totais: IR' => 10,
+    'Relatório: Termo de resp. salário família' => 2
   }
 )
 puts '', '', '(*) dependência da equipe Fisco', ''
